@@ -10,3 +10,15 @@
     color: blue;
 }
 
+:local(.picker) {
+    background-color: gray;
+    margin: auto;
+    text-align: center;
+}
+
+:local(.pickercontainer) {
+    position: relative;
+    margin: auto;
+    display: inline-block;
+}
+
