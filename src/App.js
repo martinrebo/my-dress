@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './components/nav/Nav';
 import Dress from './components/dress/Dress';
-import Size from './components/size/Size'
+import Size from './components/size/Size';
+import Order from './components/order/Order';
+
 
 class App extends Component {
   render() {
@@ -12,7 +14,6 @@ class App extends Component {
 <Nav />
         <main>
 <Dress></Dress>
-<Size></Size>
         </main>
 
       </div>

@@ -11,14 +11,20 @@
 }
 
 :local(.picker) {
-    background-color: gray;
+    background-color: #c7c3c3;
     margin: auto;
     text-align: center;
+    padding: 15px;
 }
 
 :local(.pickercontainer) {
     position: relative;
     margin: auto;
     display: inline-block;
+}
+
+:local(.button) {
+    background: #000000;
+    padding: 20px;
 }
 

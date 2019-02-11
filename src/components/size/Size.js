@@ -1,13 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Size.css';
 
 
-class Size extends Component {
-  render() {
+const Size  = (props) =>  {
+
     return (
-<div> Size button </div>
+      <div>
+        <p> Choose your Size :  </p>
+<button onClick={props.handleSmall}> Small </button>
+<button onClick={props.handleMedium}> Medium </button>
+<button onClick={props.handleLarge}>  Large </button>
+      </div>
     );
-  }
+
 }
 
 export default Size;

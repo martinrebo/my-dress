@@ -7,7 +7,7 @@ class Nav extends Component {
     return (
         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div>MENU</div>
+        <div>REACT DRESS </div>
       </header>
     );
   }
