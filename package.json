@@ -1,5 +1,6 @@
 {
   "name": "my-dress",
+  "homepage" : "https://martinreboredo/proyectos/reactdress/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
